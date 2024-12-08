@@ -4,13 +4,13 @@ from rekogzator import RekogZator
 from poemeiro import Poemeiro
 from therepenter import PollyZator
 from bootstrapCredentials_ import bootstrapCredentials_
-from bootstrapCredentials import bootstrapCredentials
+#from bootstrapCredentials import bootstrapCredentials
 import boto3, uuid, botocore
 import os 
 os.chdir(os.path.abspath(os.curdir))
 
 # Clients
-cliente = bootstrapCredentials()
+cliente = bootstrapCredentials_()
 rekognition_client, s3_client, polly_client, cliente_openai = cliente.credentials()
 
 # Bucket S3
