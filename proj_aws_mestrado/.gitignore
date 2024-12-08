@@ -4,6 +4,8 @@
 *.csv
 *.xlsx
 *.png
+*.mp4
+*.webp
 trabalho_nuvem/
 bootstrapCredentials.py
 teste.py
